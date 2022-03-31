@@ -1,3 +1,7 @@
+#
+# See article here:  https://whoek.com/b/use-jira-api-to-create-excel-reports
+#
+
 from jira.client import JIRA
 import pandas as pd
 import sqlite3
@@ -5,7 +9,7 @@ import xlsxwriter
 
 # Settings
 email = 'name@domain.com'                    # Jira username
-api_token = "wlBnubFKBPYCQ8NQFb377407"       # Jira API token
+api_token = "wlBnubFKBPYCQ8NQFb377407"       # Jira API token // this is not an actual token :)
 server = 'https://kk2000.atlassian.net/'     # Jira server URL
 jql = "project = KK"                         # JQL 
 
